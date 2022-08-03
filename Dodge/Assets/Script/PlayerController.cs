@@ -16,28 +16,8 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKey(KeyCode.UpArrow) == true)
-        {
-            playerRigidbody.AddForce(0.0f, 0.0f, speed);
-        }
-
-        if (Input.GetKey(KeyCode.DownArrow) == true)
-        {
-            playerRigidbody.AddForce(0.0f, 0.0f, -speed);
-        }
-
-        if (Input.GetKey(KeyCode.RightArrow) == true)
-        {
-            playerRigidbody.AddForce(speed, 0.0f, 0.0f);
-        }
-
-        if (Input.GetKey(KeyCode.LeftArrow) == true)
-        {
-            playerRigidbody.AddForce(-speed, 0.0f, 0.0f);
-        }
-
         float xInput = Input.GetAxis("Horizontal");
-        float zInput = Input.GetAxis("Verticla");
+        float zInput = Input.GetAxis("Vertical");
 
         float xSpeed = xInput * speed;
         float zSpeed = zInput * speed;
