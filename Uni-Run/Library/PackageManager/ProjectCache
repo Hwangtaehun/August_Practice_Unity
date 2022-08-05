@@ -2865,10 +2865,104 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 1.0.15-preview.1
+    - 1.0.15-preview.2
+    - 1.0.15-preview.3
+    - 1.0.15-preview.4
+    - 1.0.15-preview.5
+    - 1.0.16-preview
+    - 1.0.16-preview.1
+    - 1.0.16-preview.2
+    - 2.0.0-preview.1
+    - 2.0.0-preview.2
+    - 2.0.0-preview.3
+    - 2.1.0-preview.1
+    - 2.1.0-preview.2
+    - 2.1.0-preview.4
+    - 2.1.0-preview.5
+    - 2.1.0-preview.7
+    - 2.2.0-preview.1
+    - 2.2.0-preview.4
+    - 2.2.0-preview.5
+    - 2.2.1-preview.1
+    - 2.2.1-preview.2
+    - 3.0.2
+    - 3.0.3
+    - 3.0.4
+    - 3.0.5
+    - 3.0.6
+    - 3.0.8
+    - 3.1.0
+    - 3.1.1
+    - 3.2.1
+    - 3.2.2
+    - 3.2.3
+    - 3.2.4
+    - 3.2.5
+    - 3.2.6
+    - 3.2.9
+    - 3.2.10
+    - 3.2.11
+    - 3.2.13
+    - 3.2.14
+    - 3.2.15
+    - 3.2.16
+    - 3.2.17
+    - 3.2.18
+    - 4.0.0
+    - 4.0.1
+    - 4.1.0
+    - 4.1.1
+    - 4.2.1
+    - 4.2.2
+    - 4.2.3
+    - 4.2.4
+    - 4.2.5
+    - 4.2.6
+    - 4.2.8
+    - 5.0.0
+    - 5.0.1
+    - 5.0.2
+    - 5.0.3
+    - 5.0.4
+    - 5.0.5
+    - 5.0.6
+    - 5.0.7
+    - 5.0.8
+    - 5.0.9
+    - 5.0.10
+    - 5.1.0
+    - 5.1.1
+    - 5.2.0
+    - 5.2.1
+    - 5.2.3
+    - 6.0.0-pre.1
+    - 6.0.0-pre.2
+    - 6.0.1
+    - 6.0.3
+    - 6.0.4
+    - 6.0.5
+    - 6.0.7
+    - 7.0.0-pre.2
+    - 7.0.0-pre.3
+    - 7.0.0
+    - 7.0.1
+    - 7.0.2
+    - 7.0.3
+    - 7.0.4
     - 7.0.5
+    - 7.0.6
+    - 8.0.0-pre.3
+    - 8.0.0-pre.4
+    - 8.0.0
+    - 8.0.1
+    - 8.0.2
+    - 9.0.0-pre.1
+    - 9.0.0-pre.3
     compatible:
     - 7.0.5
-    verified: 7.0.5
+    - 7.0.6
+    verified: 7.0.6
   dependencies:
   - name: com.unity.2d.common
     version: 6.0.3
@@ -2911,7 +3005,7 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637860696930000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -2936,7 +3030,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: tool
+  type: 
   description: 'The 2D Pixel Perfect package contains the Pixel Perfect Camera component
     which ensures your pixel art remains crisp and clear at different resolutions,
     and stable in motion.
@@ -2951,6 +3045,20 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 1.0.0-preview
+    - 1.0.1-preview
+    - 2.0.2
+    - 2.0.3
+    - 2.0.4
+    - 2.1.0
+    - 3.0.0
+    - 3.0.1
+    - 3.0.2
+    - 4.0.0
+    - 4.0.1
+    - 5.0.0-pre.1
+    - 5.0.0-pre.2
+    - 5.0.0
     - 5.0.1
     compatible:
     - 5.0.1
@@ -2971,7 +3079,7 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637637493430000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -3004,10 +3112,69 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 1.0.0-preview.1
+    - 1.0.0-preview.2
+    - 1.0.0-preview.3
+    - 1.0.0-preview.4
+    - 1.1.0-preview.1
+    - 1.1.0-preview.3
+    - 1.2.0-preview.1
+    - 1.2.0-preview.3
+    - 1.2.0-preview.4
+    - 2.0.2
+    - 2.0.3
+    - 2.0.4
+    - 2.0.5
+    - 2.0.7
+    - 2.1.0
+    - 2.1.3
+    - 2.1.4
+    - 2.1.5
+    - 2.1.6
+    - 2.1.8
+    - 2.1.9
+    - 2.1.10
+    - 2.1.11
+    - 3.0.0
+    - 3.1.1
+    - 3.1.3
+    - 3.1.4
+    - 3.1.5
+    - 3.1.6
+    - 3.1.7
+    - 4.0.0
+    - 4.0.1
+    - 4.0.2
+    - 4.1.0
+    - 4.1.1
+    - 4.1.2
+    - 4.1.3
+    - 4.2.0
+    - 4.3.0
+    - 5.0.0-pre.1
+    - 5.0.0-pre.2
+    - 5.0.1
+    - 5.0.3
+    - 5.0.4
+    - 5.0.6
+    - 6.0.0-pre.2
+    - 6.0.0-pre.3
+    - 6.0.0-pre.4
+    - 6.0.0
+    - 6.0.1
+    - 6.0.2
     - 6.0.3
+    - 6.0.4
+    - 7.0.0-pre.3
+    - 7.0.0-pre.4
+    - 7.0.0
+    - 7.0.1
+    - 8.0.0-pre.1
+    - 8.0.0-pre.3
     compatible:
     - 6.0.3
-    verified: 6.0.3
+    - 6.0.4
+    verified: 6.0.4
   dependencies:
   - name: com.unity.2d.animation
     version: 7.0.4
@@ -3051,7 +3218,7 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637817447900000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -3135,10 +3302,81 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 1.0.10-preview.2
+    - 1.0.11-preview
+    - 1.0.12-preview
+    - 1.0.12-preview.1
+    - 1.0.14-preview.2
+    - 2.0.0-preview.4
+    - 2.0.0-preview.5
+    - 2.0.0-preview.7
+    - 2.0.0-preview.8
+    - 2.0.0-preview.9
+    - 2.1.0-preview.2
+    - 2.1.0-preview.6
+    - 2.1.0-preview.7
+    - 2.1.0-preview.10
+    - 2.1.0-preview.11
+    - 3.0.1
+    - 3.0.2
+    - 3.0.4
+    - 3.0.5
+    - 3.0.6
+    - 3.0.7
+    - 3.0.8
+    - 3.0.9
+    - 3.0.10
+    - 3.0.11
+    - 3.0.12
+    - 3.0.13
+    - 3.0.14
+    - 3.0.15
+    - 3.0.16
+    - 3.0.17
+    - 3.0.18
+    - 4.0.0
+    - 4.0.1
+    - 4.0.2
+    - 4.0.3
+    - 4.1.0
+    - 4.1.1
+    - 4.1.2
+    - 4.1.3
+    - 4.1.4
+    - 4.1.5
+    - 5.0.0
+    - 5.0.1
+    - 5.0.2
+    - 5.1.0
+    - 5.1.1
+    - 5.1.2
+    - 5.1.3
+    - 5.1.4
+    - 5.1.5
+    - 5.1.6
+    - 5.1.7
+    - 5.2.0
+    - 5.3.0
+    - 6.0.0-pre.1
+    - 6.0.0-pre.2
+    - 6.0.0
+    - 6.0.1
+    - 6.0.2
+    - 7.0.0-pre.2
+    - 7.0.0-pre.3
+    - 7.0.0
+    - 7.0.2
+    - 7.0.3
     - 7.0.4
+    - 7.0.5
+    - 8.0.0-pre.4
+    - 8.0.0-pre.5
+    - 8.0.0
+    - 9.0.0-pre.1
     compatible:
     - 7.0.4
-    verified: 7.0.4
+    - 7.0.5
+    verified: 7.0.5
   dependencies:
   - name: com.unity.mathematics
     version: 1.1.0
@@ -3187,7 +3425,7 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637817447990000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -3282,10 +3520,31 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 1.5.0-preview
+    - 1.6.0-preview.1
+    - 1.6.1-preview
+    - 1.6.2-preview
+    - 1.6.3-preview
+    - 1.6.4-preview
+    - 1.7.0-preview
+    - 1.8.0-preview
+    - 1.8.1-preview
+    - 1.8.2-preview
+    - 1.8.3-preview
+    - 2.0.0-pre.1
+    - 2.0.0-pre.2
+    - 2.0.0
+    - 2.2.0
+    - 2.2.1
     - 2.2.2
+    - 2.2.3
+    - 3.0.0
+    - 3.0.1
+    - 3.0.2
     compatible:
     - 2.2.2
-    verified: 2.2.2
+    - 2.2.3
+    verified: 2.2.3
   dependencies:
   - name: com.unity.modules.tilemap
     version: 1.0.0
@@ -3321,7 +3580,7 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637860696980000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -3416,6 +3675,22 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 0.0.12-preview.2
+    - 0.0.12-preview.5
+    - 0.0.12-preview.8
+    - 0.0.12-preview.10
+    - 0.0.12-preview.11
+    - 0.0.12-preview.13
+    - 0.0.12-preview.17
+    - 0.0.12-preview.19
+    - 0.0.12-preview.20
+    - 1.0.0-preview.1
+    - 1.0.1
+    - 1.1.0-preview.1
+    - 1.1.0
+    - 1.2.1
+    - 1.2.4
+    - 1.2.5
     - 1.2.6
     compatible:
     - 1.2.6
@@ -3433,7 +3708,7 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637841876140000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -3644,10 +3919,130 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 0.2.4-preview.5
+    - 0.2.4-preview.7
+    - 0.2.4-preview.11
+    - 0.2.4-preview.12
+    - 0.2.4-preview.13
+    - 0.2.4-preview.14
+    - 0.2.4-preview.15
+    - 0.2.4-preview.16
+    - 0.2.4-preview.17
+    - 0.2.4-preview.18
+    - 0.2.4-preview.19
+    - 0.2.4-preview.20
+    - 0.2.4-preview.21
+    - 0.2.4-preview.22
+    - 0.2.4-preview.23
+    - 0.2.4-preview.24
+    - 0.2.4-preview.25
+    - 0.2.4-preview.30
+    - 0.2.4-preview.31
+    - 0.2.4-preview.33
+    - 0.2.4-preview.34
+    - 0.2.4-preview.37
+    - 0.2.4-preview.41
+    - 0.2.4-preview.45
+    - 0.2.4-preview.48
+    - 0.2.4-preview.50
+    - 1.1.0-preview.2
+    - 1.1.0-preview.3
+    - 1.1.0-preview.4
+    - 1.1.1
+    - 1.1.2
+    - 1.1.3-preview.3
+    - 1.2.0-preview.1
+    - 1.2.0-preview.5
+    - 1.2.0-preview.6
+    - 1.2.0-preview.8
+    - 1.2.0-preview.9
+    - 1.2.0-preview.10
+    - 1.2.0-preview.11
+    - 1.2.0-preview.12
+    - 1.2.0
+    - 1.2.1
+    - 1.2.2
+    - 1.2.3
+    - 1.3.0-preview.1
+    - 1.3.0-preview.2
+    - 1.3.0-preview.3
+    - 1.3.0-preview.4
+    - 1.3.0-preview.5
+    - 1.3.0-preview.6
+    - 1.3.0-preview.7
+    - 1.3.0-preview.8
+    - 1.3.0-preview.9
+    - 1.3.0-preview.10
+    - 1.3.0-preview.11
+    - 1.3.0-preview.12
+    - 1.3.0-preview.13
+    - 1.3.0
+    - 1.3.1
+    - 1.3.2
+    - 1.3.3
+    - 1.3.4
+    - 1.3.5
+    - 1.3.6
+    - 1.3.7
+    - 1.3.8
+    - 1.3.9
+    - 1.4.0-pre.1
+    - 1.4.0-preview.1
+    - 1.4.0-preview.2
+    - 1.4.0-preview.3
+    - 1.4.0-preview.4
+    - 1.4.0-preview.5
+    - 1.4.1-pre.1
+    - 1.4.1-pre.2
+    - 1.4.1
+    - 1.4.2
+    - 1.4.3
+    - 1.4.4-preview.1
+    - 1.4.4-preview.2
+    - 1.4.4
+    - 1.4.5
+    - 1.4.6
+    - 1.4.7
+    - 1.4.8
+    - 1.4.9
+    - 1.4.11
+    - 1.5.0-pre.3
+    - 1.5.0-pre.4
+    - 1.5.0-pre.5
+    - 1.5.0
+    - 1.5.1
+    - 1.5.2
+    - 1.5.3
+    - 1.5.4
+    - 1.5.5
+    - 1.5.6-preview.1
+    - 1.5.6
+    - 1.6.0-pre.2
+    - 1.6.0-pre.3
+    - 1.6.0-pre.4
+    - 1.6.0
+    - 1.6.1
+    - 1.6.2
+    - 1.6.3
+    - 1.6.4
     - 1.6.5
+    - 1.6.6
+    - 1.7.0-pre.1
+    - 1.7.0
+    - 1.7.1
+    - 1.7.2
+    - 1.7.3
+    - 1.8.0-pre.1
     compatible:
     - 1.6.5
-    verified: 1.6.5
+    - 1.6.6
+    - 1.7.0-pre.1
+    - 1.7.0
+    - 1.7.1
+    - 1.7.2
+    - 1.7.3
+    - 1.8.0-pre.1
+    verified: 1.6.6
   dependencies:
   - name: com.unity.mathematics
     version: 1.2.1
@@ -3664,7 +4059,7 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637835629630000000
   documentationUrl: 
   hasRepository: 1
   repository:
