@@ -4,11 +4,13 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
+    GameObject player;
     Vector3 dir;
     public float speed = 5;
+    public GameObject explosionFactory;
 
     // Start is called before the first frame update
-    void Start()
+    void OnEnable()
     {
         int randValue = UnityEngine.Random.Range(0, 10);
         if (randValue < 3)
@@ -31,8 +33,27 @@ public class Enemy : MonoBehaviour
 
     private void OnCollisionEnter(Collision other)
     {
-        Destroy(other.gameObject);
+        ScoreManager.Instance.Score++;
 
-        Destroy(gameObject);
+        GameObject explosion = Instantiate(explosionFactory);
+        explosion.transform.position = transform.position;
+
+        if(other.gameObject.name.Contains("Bullet"))
+        {
+            other.gameObject.SetActive(false);
+
+            PlayerFire player = GameObject.Find("Player").GetComponent<PlayerFire>();
+            player.bulletObjectPool.Add(other.gameObject);
+        }
+        else
+        {
+            Destroy(other.gameObject);
+        }
+        //Destroy(gameObject);
+        gameObject.SetActive(false);
+
+        GameObject emObject = GameObject.Find("EnemyManager");
+        EnemyManager manager = emObject.GetComponent<EnemyManager>();
+        manager.enemyObjectPool.Add(other.gameObject);
     }
 }

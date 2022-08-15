@@ -5,15 +5,27 @@ using UnityEngine;
 public class EnemyManager : MonoBehaviour
 {
     float currentTime;
-    float minTime = 1;
-    float maxTime = 5;
-    public float createTime = 1;
+    float minTime = 0.5f;
+    float maxTime = 1.5f;
+    public float createTime = 1.0f;
     public GameObject enemyFactory;
+    public int poolSize = 10;
+    public List<GameObject> enemyObjectPool;
+    public Transform[] spawnPosition;
+
 
     // Start is called before the first frame update
     void Start()
     {
-        createTime = UnityEngine.Random.Range(minTime, maxTime);
+        createTime = Random.Range(minTime, maxTime);
+
+        enemyObjectPool = new List<GameObject>();
+        for(int i = 0; i < poolSize; i++)
+        {
+            GameObject enemy = Instantiate(enemyFactory);
+            enemyObjectPool.Add(enemy);
+            enemy.SetActive(false);
+        }
     }
 
     // Update is called once per frame
@@ -23,10 +35,26 @@ public class EnemyManager : MonoBehaviour
 
         if (currentTime > createTime)
         {
-            GameObject enemy = Instantiate(enemyFactory);
-            enemy.transform.position = transform.position;
-            currentTime = 0;
-            createTime = UnityEngine.Random.Range(minTime, maxTime);
+            if(enemyObjectPool.Count > 0)
+            {
+                GameObject enemy = enemyObjectPool[0];
+                enemyObjectPool.Remove(enemy);
+                int index = Random.Range(0, spawnPosition.Length);
+                enemy.transform.position = spawnPosition[index].position;
+                enemy.SetActive(true);
+            }
+
+            //for (int i = 0; i < poolSize; i++)
+            //{
+            //    GameObject enemy = enemyObjectPool[i];
+            //    if(enemy.activeSelf == false)
+            //    {
+            //        enemy.transform.position = transform.position;        
+            //    }
+            //}
+
+            createTime = Random.Range(minTime, maxTime);
+            currentTime = 0;           
         }
     }
 }

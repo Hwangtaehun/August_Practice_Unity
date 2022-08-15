@@ -363,12 +363,14 @@
 "Assets/JMO Assets/Cartoon FX/Scripts/CFX_AutoRotate.cs"
 "Assets/JMO Assets/Cartoon FX/Scripts/CFX_LightFlicker.cs"
 "Assets/JMO Assets/Cartoon FX/Scripts/CFX_LightIntensityFade.cs"
+"Assets/Scripts/Background.cs"
 "Assets/Scripts/Bullet.cs"
 "Assets/Scripts/DestroyZone.cs"
 "Assets/Scripts/Enemy.cs"
 "Assets/Scripts/EnemyManager.cs"
 "Assets/Scripts/PlayerFire.cs"
 "Assets/Scripts/PlayerMove.cs"
+"Assets/Scripts/ScoreManager.cs"
 -langversion:9.0
 
 /deterministic
