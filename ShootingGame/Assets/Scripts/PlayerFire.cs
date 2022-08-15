@@ -21,21 +21,33 @@ public class PlayerFire : MonoBehaviour
             bulletObjectPool.Add(bullet);
             bullet.SetActive(false);
         }
+#if UNITY_ANDROID
+        GameObject.Find("Joystick canvas XYBZ").SetActive(true);
+#elif UNITY_EDITOR || UNITY_STANDALONE
+        GameObject.Find("Joystick canvas XYBZ").SetActive(false);
+#endif
     }
 
     // Update is called once per frame
     void Update()
     {
+#if UNITY_EDITOR || UNITY_STANDALONE
         if(Input.GetButtonDown("Fire1"))
         {
-            if(bulletObjectPool.Count > 0)
-            {
-                GameObject bullet = bulletObjectPool[0];
-                bullet.SetActive(true);
-                bulletObjectPool.Remove(bullet);
+            fire();
+        }
+#endif
+    }
 
-                bullet.transform.position = transform.position;
-            }
+    public void fire()
+    {
+        if (bulletObjectPool.Count > 0)
+        {
+            GameObject bullet = bulletObjectPool[0];
+            bullet.SetActive(true);
+            bulletObjectPool.Remove(bullet);
+
+            bullet.transform.position = transform.position;
         }
     }
 }
