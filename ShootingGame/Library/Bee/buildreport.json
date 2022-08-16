@@ -1,0 +1,20 @@
+{
+"instructions_readme": "1) Open Chrome, 2) go to chrome://tracing, 3) click Load, 4) navigate to this file.",
+
+"traceEvents":[
+{ "pid": "Unity", "ph":"M", "name": "process_name", "args": {"name": "Unity"} },
+{ "pid": "Unity", "ph":"M", "name": "process_sort_index", "args": {"sort_index": -100} },
+{ "pid": "Unity", "tid": 1, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "Unity", "tid": 1,"ts": 437762673844,"dur": 12287431.4, "ph":"X", "name": "Build player"},
+{ "pid": "Unity", "tid": 1,"ts": 437762689781.6,"dur": 153427.4, "ph":"X", "name": "Preprocess Player"},
+{ "pid": "Unity", "tid": 1,"ts": 437762851770.8,"dur": 12024734.3, "ph":"X", "name": "Prepare For Build"},
+{}
+
+],
+"meta_datetime": "08/15/2022 21:50:46",
+"meta_command_line": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2021.3.4f1\\Editor\\Unity.exe\" -projectpath C:\\Users\\r283\\Desktop\\Github\\August_Practice_Unity\\ShootingGame -useHub -hubIPC -cloudEnvironment production -licensingIpc LicenseClient-r283 -hubSessionId 7d68f8e0-1c7b-11ed-af48-07b6dbf1a9e5 -accessToken WiHira9eN9YkYWwQT_v9Y3GM5vhGhM47JdhMEX3-60s00df",
+"meta_command_line_args": "C:\\Program Files\\Unity\\Hub\\Editor\\2021.3.4f1\\Editor\\Unity.exe -projectpath C:\\Users\\r283\\Desktop\\Github\\August_Practice_Unity\\ShootingGame -useHub -hubIPC -cloudEnvironment production -licensingIpc LicenseClient-r283 -hubSessionId 7d68f8e0-1c7b-11ed-af48-07b6dbf1a9e5 -accessToken WiHira9eN9YkYWwQT_v9Y3GM5vhGhM47JdhMEX3-60s00df",
+"meta_user_name": "r283",
+"meta_os_version": "Microsoft Windows NT 10.0.22000.0",
+"meta_cpu_count": "16"
+}
