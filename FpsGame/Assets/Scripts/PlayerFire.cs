@@ -10,6 +10,7 @@ public class PlayerFire : MonoBehaviour
     public GameObject bombFactory;
     public GameObject bulletEffect;
     public float throwPower = 15.0f;
+    public int weaponPower = 5;
 
     // Start is called before the first frame update
     void Start()
@@ -37,9 +38,17 @@ public class PlayerFire : MonoBehaviour
 
             if(Physics.Raycast(ray, out hitInfo))
             {
-                bulletEffect.transform.position = hitInfo.point;
-                bulletEffect.transform.forward = hitInfo.normal;
-                ps.Play();
+                if (hitInfo.transform.gameObject.layer == LayerMask.NameToLayer("Enemy"))
+                {
+                    EnemyFSM eFSM = hitInfo.transform.GetComponent<EnemyFSM>();
+                    eFSM.HItEnemy(weaponPower);
+                }
+                else
+                {
+                    bulletEffect.transform.position = hitInfo.point;
+                    bulletEffect.transform.forward = hitInfo.normal;
+                    ps.Play();
+                }
             }
         }
     }
