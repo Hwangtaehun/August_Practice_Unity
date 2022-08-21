@@ -1,0 +1,2 @@
+C:\Users\KHJ\Documents\FPSPractice\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+C:\Users\KHJ\Documents\FPSPractice\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
